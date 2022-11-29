@@ -3,4 +3,8 @@
     <string name="take_picture">Take Picture</string>
     <string name="delete_picture">Delete Picture</string>
     <string name="help">Help</string>
+    <string name="delete_dialog_title">Delete Confirmation</string>
+    <string name="delete_dialog_message">Sure to delete the picture?</string>
+    <string name="positive_dialog_button">Yes</string>
+    <string name="negative_dialog_button">No</string>
 </resources>
