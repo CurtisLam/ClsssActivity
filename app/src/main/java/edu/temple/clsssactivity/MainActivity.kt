@@ -51,8 +51,11 @@ class MainActivity : AppCompatActivity() {
                     .create()
                     .show()
             }
+            // if non of the above happen, should return false
+            // for the proper implementation
+            else -> return false
         }
-
-        return super.onOptionsItemSelected(item)
+        // should return true here if one of the option follow above instead of false
+        return true
     }
 }
